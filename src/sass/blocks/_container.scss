@@ -1,0 +1,33 @@
+ 
+ *{
+    box-sizing: border-box
+ }
+ a{
+text-decoration: none;
+ }
+ul{
+  padding: 0;
+}
+li{
+list-style: none;
+}
+.section {
+  padding: 0 calc(50% - 570px);
+ 
+}
+button,
+button:focus,
+button:active
+{
+  outline: none;
+}
+
+.base_background{
+    background: #fff;
+    height:100vh;
+    
+}
+// * {
+//   outline: 1px solid red;
+//   }
+

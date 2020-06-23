@@ -1,0 +1,15 @@
+
+.animate__fadeIn{
+  animation:fadeIn 0.5s linear 1;
+}
+
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

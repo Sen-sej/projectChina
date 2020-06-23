@@ -1,0 +1,92 @@
+@media screen and (max-width: 575.98px){
+    .section{
+      padding: 0 10px;
+    
+    }
+    .header .menu {
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+      &_block img {
+        margin-bottom:5px;
+      }
+      &_block span {
+        text-align:center;
+      }
+      &_block .button {
+        margin: auto 0;
+        margin-top:8px;
+      }
+   }
+  .header .header_text{
+    & h3 {
+      font-size: 20px;
+    }
+    & h1 {
+        font-size: 52px;
+      }
+    & h2 {
+          font-size: 32px;
+        }
+    }
+    .header .head_block {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .globalOpt h2 {
+      font-size: 22px;
+      line-height: 1.2;
+    }
+    .questions_block .questions_input .message {
+      width: 90%;
+    }
+    .footer_top_text {
+      text-align: center;
+    }
+    .footer_bottom {
+      display: flex;
+    flex-direction:column;
+    align-items:center;
+    .active {
+      line-height: 3;
+      }
+    &_logo .text {
+        line-height: 3;
+      }
+  }
+  .hamburger {
+    left: 88%;
+    &_active {
+      left: 88%;
+    }
+  }
+  .reviews_slider .prev, .reviews_slider .next {
+    top: -35%;
+    left: 62%;
+    width: 30%;
+  }
+  .reviews_slider .next {
+    left: 8%;
+  }
+  .overlay .popup-close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border: 1px solid #d05741;
+  }
+  .overlay .popup .main-form .fl {
+    display: flex;
+   flex-direction:column;
+  
+  }
+  .overlay .popup .main-form .popup-form__input,
+  .overlay .popup .main-form .popup-form__btn {
+  margin:5px;
+}
+.footer .up {
+  top:90%;
+  left:89%;
+}
+
+}

@@ -1,0 +1,53 @@
+.questions{
+    background: url(../img/Rectangle18.jpg) 50% 50% /cover no-repeat;
+    padding-top: 62px;
+    padding-bottom: 79px;
+    &_block{
+        display: block;
+        max-width: 896px;
+        margin:0 auto;
+        background:rgba(243, 243, 243, 0.7);
+        padding-bottom: 25px;
+        &_head{
+            height: 68px;
+            background-color: #25333c;
+            .head_text{
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                line-height:1;
+                color: $textWhite;
+                padding-top: 15px;
+                margin-bottom: 0;
+            }
+            .head_descr{
+                display: block;
+                font-size: 14px;
+                font-weight: normal;
+                line-height:1;
+                text-align: center;
+                color: $textWhite;
+            }
+        }
+        .questions_input{
+            display: block;
+            margin: 0 auto;
+            margin-top: 18px;
+            max-width: 813px;
+            &_row{
+                @include form;
+                margin-top: 18px;
+            }
+            .message{
+                margin-top: 8px;
+                width:100%;
+            }
+        }
+        .button_form{
+            width: 180px;
+            height: 45px;
+            margin: 0 auto;
+            @include button;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.globalOpt{
+    background:$bacground;
+    padding-top: 58px;
+    padding-bottom: 51px;
+    h2{
+        font-size: 26px;
+        line-height: 0.88;
+        color: #2e2e2e;
+        text-align: center;
+        
+    }
+    .globalOpt_block{
+        display: grid;
+        grid:repeat(4,auto) / repeat(2, auto);
+        grid-row-gap:35px;
+        grid-column-gap:60px ;
+        margin-top: 31px;
+        &_part{
+            display:flex;
+            justify-content:start;
+            align-items:center
+        }
+            .part_img{
+            width: 62px;
+            height: 65px;
+            margin-right: 21px;
+            }
+            .part_text{
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                color: #3a3a3a;
+                h3{
+                font-size: 16px;
+                font-weight: bold;
+                color:$base_color;
+                }
+            }
+    
+    }
+
+
+
+
+}

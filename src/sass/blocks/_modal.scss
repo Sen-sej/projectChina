@@ -1,0 +1,85 @@
+.overlay{
+    display: none; 
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: url("../img/Rectanglemin.jpg") center center/cover no-repeat; 
+    z-index:2;
+  .popup{
+      position: relative;
+      margin: 0 auto;
+      margin-top:20%;
+      max-width: 450px;
+      padding: 15px;  
+        &-title{
+            text-align: center;
+        }
+        &-close{
+            position: absolute;
+            top: -23px;
+            right: -16px;
+            width: 40px;
+            font-size: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            color:red;
+            border-radius: 50%;
+            border:1px solid $base_color;
+            text-align: center;    
+        }
+        &-close:hover{
+            box-shadow: 0 0 3px $base_color;
+        }
+        &-title{
+            font-size: 22px;
+            border: 1px solid $base_color;
+            padding: 10px;
+            background: $base_color;
+        }
+
+  .main-form{
+      border:1px solid $base_color;
+      padding: 20px;
+      background:$bacground;
+        .popup-form-header{
+            font-size: 25px;
+            text-align: center;
+            
+        }
+        .label-span{
+            display: block;
+            padding-top: 15px; 
+            text-align: center 
+        }
+        .application{
+            margin-top: 15px;
+            display:flex;
+            justify-content: space-around;
+        }
+        .popup-form__input,
+        .popup-form__btn{
+            padding: 8px;
+            border: 1px solid $base_color;
+            
+        }
+        .popup-form__input{
+            
+            background: $base_color;
+                }
+    }
+  }
+}
+.more{
+    border: 1px solid $base_color;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background: $base_color;
+&:hover{
+    box-shadow: 0 0 3px $base_color;
+    }
+}

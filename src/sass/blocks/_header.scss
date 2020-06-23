@@ -1,0 +1,147 @@
+.header{
+    background: url("../img/Rectanglemin.jpg") center center/cover no-repeat;
+    padding-bottom: 82px;
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 23px;
+            &_block{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .tel{
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                img{
+                    width: 95px;
+                    height: 99px;
+
+                }
+                span{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 1.71;
+                    color: $textWhite;
+                    text-align: right;
+                }
+                .button{
+                    margin: auto 0;
+                    width: 160px;
+                    height: 45px;
+                    font-size: 12px;
+                    line-height: 1.83;
+                    @include button;
+                    }
+                .ul{
+                    display: flex;
+                    justify-content: space-between;
+                    .li{
+                        border-right:1px dashed $textWhite ;
+                        &:last-child{
+                            border-right:none; 
+                        }
+                        &_active{
+                            a{
+                                color:$base_color!important;
+                            } 
+                        }
+                        a{
+                        font-size: 15px;
+                        line-height: 1.13;
+                        color:$textWhite;
+                        padding: 0 10px;
+                            &:hover{ 
+                                color:$base_color;
+                                     
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .header_text{
+            margin-top: 10px;
+            text-align: center;
+            h3{
+                font-size: 24px;
+                font-weight: 300;
+                color: $textWhite;
+                margin-bottom: 0;
+                            }
+            h1{
+                margin-top: 26px; 
+                font-size: 72px;
+                font-weight: bold;
+                font-stretch: condensed;
+                text-align: center;
+                color: $base_color;
+                margin-bottom: 0;
+            } 
+            h2{
+                margin-top: 9px; 
+                font-size: 42px;
+                font-stretch: condensed;
+                text-align: center;
+                color: $textWhite; 
+                margin-bottom: 0;
+            }               
+        }
+        .line{
+            display: flex;
+            justify-content: center;
+            margin-top: 38px;
+            &_one{
+                display: block;
+               width: 390px;
+                height: 2px;
+                background:$textWhite;
+                margin:0 10px;
+            }
+            &_circle{
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius:50%;
+                background:$textWhite;
+                transform: translateY(-50%) ;
+            }
+        }
+
+        .head_block{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 27px;
+            .block_part{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 262px;
+                &_img{
+                    width: 63px;
+                    height: 63px;
+
+                }
+                &_text{
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 1.38;
+                    text-align: center;
+                    color:$textWhite;
+                    margin-top: 16px;
+                }
+            }
+        }
+
+        .button{
+            width: 230px;
+            height: 57px;
+            font-size: 15px;
+            line-height: 1.17;
+            @include button;
+            margin: 0 auto;
+            margin-top: 39px;
+        }
+}

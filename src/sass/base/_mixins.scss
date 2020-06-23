@@ -1,0 +1,39 @@
+
+@mixin button {
+         display: block;
+        background-color:$base_color;
+        border-radius: 25px;
+        border: none;
+        color:$textWhite;
+        &:hover{
+            box-shadow: 0 0 3px $a;
+        }
+}
+@mixin trait{
+    display: block;
+    height: 2px;
+    background:$base_color;
+    width: 148px;
+    margin: 0 auto;
+    margin-top: 20px;
+}		
+@mixin form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       input{
+         width: 268px;
+         height: 45px;
+         border: solid 1px rgba(0, 0, 0, 0.21);
+         border-radius:25px;
+         margin: 0 3px;
+       }
+       .textbox{
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 1.85;
+            color: rgba(16, 16, 16, 0.7);
+            padding-left: 28px;
+       }
+    
+    }
